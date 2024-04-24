@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura-Sayama Tea House</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.png" width="100px" height="100px" alt="Sakura-Sayama Tea House Logo">
+        <h1>Sakura-Sayama Tea House</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Sakura-Sayama Tea House, your destination for authentic Japanese tea. We have been serving
+            premium tea for generations, keeping the tradition alive.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="./img/tea1.png" alt="Green Tea">
+            <h3>Green Tea</h3>
+            <p>Experience the purity and freshness of our green tea leaves, hand-picked from the lush fields of
+                Japan.</p>
+        </div>
+        <div class="product">
+            <img src="./img/tea2.png" alt="Matcha Tea">
+            <h3>Matcha Tea</h3>
+            <p>Indulge in the rich and creamy flavor of our finely ground matcha, perfect for tea ceremonies and
+                everyday enjoyment.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for inquiries, orders, or any assistance. We're here to help!</p>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sakura-Sayama Tea House. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
